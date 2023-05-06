@@ -62,9 +62,9 @@ function updateScoreElement() {
     document.querySelector('.js-score').innerHTML = 
         `Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`;
     
-    if (score.wins >= 11) {
+    if (score.wins >= 5) {
         openInNewTab('https://www.youtube.com/watch?v=Gb1iGDchKYs');
-    } else if (score.losses >= 11) {
+    } else if (score.losses >= 5) {
         openInNewTab('https://www.psychologytoday.com/sg/blog/in-practice/202012/6-tips-when-you-feel-loser-life');
     }
 }

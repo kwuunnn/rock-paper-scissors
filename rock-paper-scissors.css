@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    color: darkblue;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.move-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.move-button {
+    background-color: blueviolet;
+    padding: 10px;
+    height: 120px;
+    width: 120px;
+    /* radius half of the height and width to make it round */
+    border-radius: 60px;
+    border: 10px ridge black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.move-button:hover {
+    background-color: brown;
+}
